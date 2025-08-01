@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
+require('dotenv').config();
 const authRouter = require("./routes/auth/auth-routes");
 const adminProductsRouter = require("./routes/admin/products-routes");
 const adminOrderRouter = require("./routes/admin/order-routes");
@@ -15,11 +16,12 @@ const shopReviewRouter = require("./routes/shop/review-routes");
 
 const commonFeatureRouter = require("./routes/common/feature-routes");
 
+const paypal = require('./helpers/paypal');
 //create a database connection -> u can also
 //create a separate file for this and then import/use that file here
 
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect('mongodb+srv://mwalemoses54:mosesm24@farm.pgctnba.mongodb.net/')
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
