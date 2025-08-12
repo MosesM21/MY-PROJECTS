@@ -20,6 +20,20 @@ export const registerFormControls = [
     componentType: "input",
     type: "password",
   },
+  {
+    name: "confirmPassword",
+    label: "Confirm Password",
+    placeholder: "Re-enter your password",
+    componentType: "input",
+    type: "password",
+  },
+  {
+    name: "phone",
+    label: "Phone",
+    placeholder: "Enter your phone number",
+    componentType: "input",
+    type: "text",
+  },
 ];
 
 export const loginFormControls = [
