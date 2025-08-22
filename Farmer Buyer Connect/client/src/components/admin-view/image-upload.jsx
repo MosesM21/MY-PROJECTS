@@ -6,6 +6,7 @@ import { Button } from "../ui/button";
 import axios from "axios";
 import { Skeleton } from "../ui/skeleton";
 
+
 function ProductImageUpload({
   imageFile,
   setImageFile,
@@ -96,7 +97,7 @@ function ProductImageUpload({
             <span>Drag & drop or click to upload image</span>
           </Label>
         ) : imageLoadingState ? (
-          <Skeleton className="h-10 bg-gray-100" />
+          <Skeleton className="h-10 bg-gray-400" />
         ) : (
           <div className="flex items-center justify-between">
             <div className="flex items-center">
