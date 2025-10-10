@@ -19,6 +19,7 @@ nav {
    background-color: white;
    position: sticky; 
    top: 0;
+   box-shadow: 0px 2px 0px 0px rgba(1, 1, 1, 0.1);
 }
 
 nav ul {
@@ -49,6 +50,7 @@ nav ul li:hover {
    border: 0.5px solid rgb(200, 200, 200);
    border-radius: 25px;
    background-color: rgb(241, 243, 244);
+   transition-duration: 200ms;
 }
 
 nav ul li img {
@@ -90,7 +92,7 @@ input {
    box-sizing: border-box;
    font-size: large;
    outline: none;
-   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
    transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -171,6 +173,20 @@ button:hover {
    margin-right: auto;
 }
 
+.instagram:hover {
+   transform: scale(1.2);
+   transition-duration: 200ms;
+}
+
+.youtube:hover {
+   transform: scale(1.2);
+   transition-duration: 200ms;
+}
+
+.facebook:hover {
+   transform: scale(1.2);
+   transition-duration: 200ms;
+}
 .cards img {
    width: 100px;
    height: 100px;
