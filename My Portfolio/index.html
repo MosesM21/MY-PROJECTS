@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,26 +13,38 @@
             <li>Archievements</li>
             <li>Skills</li>
             <li>Contact</li>
+            <li><button id="dark-light-mode" onclick="changeMode()">Mode</button></li>
         </ol>
     </nav>
-    <div class="profile-picture">
-        <img src="https://hips.hearstapps.com/hmg-prod/images/mh-06-01-spiderman-6478b7e322b43.png?crop=0.473xw:0.946xh;0.527xw,0&resize=640:*" alt="profile-avatar">
-    </div>
+
     <div>
-        <h1>Moses Mwale 🧑‍💻</h1>
-        <p>Fullstack Developer | Student | Artist </p>
-        <p>Checkout my CSS & HTML projects <a href="/HTML & CSS/" target="_blank">here.</a></p>
-    </div>
-    <div>
-        <h2>Connect with me:</h2>
-        <ol>
-            <li><a href="https://github.com/MosesM21/">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/moses-mwale-5b4b3b1b4/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/moses_mwale21/">instagram</a></li>
-        </ol>
+        <div class="profile-picture">
+            <img src="my-picture.jpg" alt="avatar" class="avatar">
+            <div class="intro">
+                <h1>Moses Mwale</h1>
+                <p>Fullstack Developer | Student | Artist </p>
+            </div>
         
-        
+        </div>
+        <div class="about-me">
+            <h2>About Me:</h2>
+            <p>I am a passionate and dedicated fullstack developer with a strong foundation in both frontend
+                and backend technologies. I love creating dynamic and responsive web applications that provide
+                seamless user experiences. With a keen eye for design and a commitment to writing clean, efficient
+                code, I strive to deliver high-quality solutions that meet client needs and exceed expectations.
+            </p>
+            <p>Checkout my CSS & HTML projects <a href="/HTML & CSS/" target="_blank">here.</a></p>
+        </div>
+        <div class="contact-me">
+            <h2>Connect with me:</h2>
+            <ol>
+                <li><a href="https://github.com/MosesM21/">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/moses-mwale-5b4b3b1b4/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/moses_mwale21/">instagram</a></li>
+            </ol>
+        </div>
     </div>
+    
     
 
 </body>
