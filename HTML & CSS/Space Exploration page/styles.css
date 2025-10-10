@@ -1,0 +1,42 @@
+body {
+    background-image: url("steve-busch-0rUgzSccEbk-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#SpaceX-Logo {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.underline-txt{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+}
+
+.apply-btn  {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8spx;
+    font-family: inherit;
+}
