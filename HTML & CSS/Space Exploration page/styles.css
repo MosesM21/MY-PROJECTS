@@ -1,5 +1,5 @@
 body {
-    background-image: url("steve-busch-0rUgzSccEbk-unsplash.jpg");
+    background-image: url("Space\ Science\ Tech\ GIF\ by\ European\ Space\ Agency\ -\ ESA.gif");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,21 +7,20 @@ body {
     font-family: "Orbitron", sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 #SpaceX-Logo {
     width: 100px;
-    height: 60px;
+    height: 70px;
     object-fit: contain;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: 30px auto;
 }
 
 h1 {
     text-align: center;
-    
+    font-size: 3em;
 }
 
 .underline-txt{
@@ -39,4 +38,9 @@ h1 {
     background-color: white;
     border-radius: 8spx;
     font-family: inherit;
+}
+
+.apply-btn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
 }
